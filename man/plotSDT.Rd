@@ -5,10 +5,11 @@
 \title{Plot of an SDT analysis}
 \usage{
 plotSDT(dp = 2, crit = NULL, xlim = c(-4, 4), noiseLab = "",
-  signalLab = "", xlab = "evidence", ylab = "", main = "", dpLab = NA,
+  signalLab = "", noiseLabCex = 1, signalLabCex = 1, xlab = "evidence",
+  ylab = "", main = "", dpLab = NA, dpLabCex = 1,
   noiseCol = "darkblue", signalCol = "coral3", critCol = "black",
-  critLty = 1, critLwd = 1, critLab = NA, noiseLty = 1, signalLty = 1,
-  noiseLwd = 1, signalLwd = 1)
+  critLty = 1, critLwd = 1, critLab = NA, critLabCex = 1,
+  noiseLty = 1, signalLty = 1, noiseLwd = 1, signalLwd = 1)
 }
 \arguments{
 \item{dp}{The d-prime value to show.}

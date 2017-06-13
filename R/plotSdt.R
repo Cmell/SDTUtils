@@ -27,6 +27,8 @@ plotSDT <- function( dp=2, crit=NULL, xlim=c(-4, 4),
   #' @param signalLty The type of line to draw for the signal distribution.
   #' @param noiseLwd The width of the noise distribution line.
   #' @param signalLwd the width of the signal distribution line.
+  #' 
+  #' @export plotSDT
 
   mean1 <- -.5*dp; mean2 <- .5*dp
 
